@@ -1,0 +1,57 @@
+.body{
+
+background-color: black;
+
+}
+.foto{
+    border-radius: 50%;
+    border: 5px solid rgb(255, 254, 254);
+    display: block;
+    margin: auto;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    align-items: auto;
+
+}   
+.tiltc{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+.sbr-rct{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
+.prg-explain{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
+.ing-rct{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
+
+
+.ing-list{
+    color: rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
+.mdp{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
+.mdp-list{
+    color: rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
