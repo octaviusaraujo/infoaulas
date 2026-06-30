@@ -1,0 +1,18 @@
+body{
+    user-select: none;
+   cursor: pointer;
+}
+.data {
+    border-radius: 18px;
+}
+
+.curso {
+    border-radius: 18px;
+}
+
+.enviar-btn{
+    border-radius: 18px;
+    border: none;
+    padding: 4px;
+    font-size: 12px;
+}

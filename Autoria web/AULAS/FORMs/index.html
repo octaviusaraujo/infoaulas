@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./styles/global.css">
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend class="curso">Qual é o tipo do seu curso?</legend>
+            <input type="radio" id="rd-int" value="Subsequente" name="curso">
+            <label for="rd-int">Subsequente</label>
+             <input type="radio" id="rd-ine" value="integrado" name="curso">
+            <label for="rd-ine">Integrado</label>
+             <input type="radio" id="rd-nrm" value="Superior" name="curso">
+            <label for="rd-nrm">Superior</label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                que diciplinas voce cursa
+            </legend>
+            <input type="checkbox" id="prt" value="Portugues" name="curso">
+            <label for="c_port">Portugues</label>
+            <input type="checkbox" id="mat" value="Matematica" name="curso">
+            <label for="c_port">Matematica</label>
+            <input type="checkbox" id="qui" value="Quimica" name="curso">
+            <label for="c_port">Quimica</label>
+            <input type="checkbox" id="filo" value="filosofiar" name="curso">
+            <label for="c_port">Filosofia</label>
+            <input type="checkbox" id="des" value="design" name="curso">
+            <label for="c_port">Design</label>
+            <input type="checkbox" id="log" value="logica" name="curso">
+            <label for="c_port">Logica</label>
+            <input type="checkbox" id="auto" value="autoria web" name="curso">
+            <label for="c_port">Autoria web</label>
+        </fieldset>
+        <fieldset>
+            <legend>Qual é seu turno</legend>
+            <select name="turno" id="turno">
+                <option value="mat">Matutino</option>
+                <option value="tar"> Verspertino</option>
+                <option value="noite">Noturno</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>qual é seu nome</legend>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+
+        </fieldset>
+        <fieldset>
+
+            <legend>Qual é sua idade</legend>
+            <input type="date" class="data" name="data">
+            <label for="data">(Data e nascimento)</label>
+        </fieldset>
+        <fieldset>
+            <input type="submit" class="enviar-btn" value="Enviar">
+            <input type="reset" class="enviar-btn" value="Limpar">
+        </fieldset>
+</body>
+</html>
