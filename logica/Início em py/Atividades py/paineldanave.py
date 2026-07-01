@@ -1,4 +1,4 @@
-print("--Painel da nave--\n 1-Verificar combustivel\n 2-Ativar escudo de protecão \n 3-\Ativar modo de auto destruicão")
+print("--Painel da nave--\n 1-Verificar combustivel\n 2-Ativar escudo de protecão \n 3-Ativar modo de auto destruicão")
 escolha = int(input("Digite uma opcão:"))
 while True:
     match escolha:
