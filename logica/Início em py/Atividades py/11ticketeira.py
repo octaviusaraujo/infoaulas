@@ -2,7 +2,7 @@ print("--- Menu Ticketeria ---\n 1-ingresso inteira(R$ 30,00 ) \n 2-ingresso Mei
 
 opc = int(input("Digite uma opção:"))
 match opc:
-    case 1:
+    case "1":
       idade = int(input("Qual é sua idade?"))
       if idade < 18:
         print("voce precisa de um responsavel")
