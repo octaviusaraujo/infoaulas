@@ -61,10 +61,11 @@ def novo_jogo():
       jogador = str(input("digite o nome do seu personagem:"))
       if estado == 'vivo':
             print("\nSeja Bem vindo ao mundo",jogador, "Vamos ao jogo\n")
-            print("\nSeus stats sao:" "\nHp:",Hp,"\nLevel:",level,"\nForca:",forca,"\nExp:",exp)
+            print("\nSeus stats sao:" "\nHp:",Hp,"\nLevel:",level,"\nForca:",forca,"\nExp:",exp,"\n ------------")
+            escolhas_no_jogo()
       else:
-            mensganes_de_morte = ['\nSua mae foi engolida por uma jacare enquanto gestava de voce,voce nao nasceu\n','\nsua mae morreu de fome antes de voce nascer.\n','\nsua mae caiu num rio e morreu,voce nao nasceu.\n','\nVoce nasceu! porem a parteira deixou voce cair durante o parto e vocce morreu.\n']
-            print(random.choice(mensganes_de_morte))
+            mensagens_de_morte = ['\nSua mae foi engolida por uma jacare enquanto gestava de voce,voce nao nasceu\n','\nsua mae morreu de fome antes de voce nascer.\n','\nsua mae caiu num rio e morreu,voce nao nasceu.\n','\nVoce nasceu! porem a parteira deixou voce cair durante o parto e vocce morreu.\n']
+            print(random.choice(mensagens_de_morte))
             menu_do_jogo()
 
       return Hp,level,forca,exp,inventario,estado
@@ -92,11 +93,26 @@ def game_over():
       print(" obrigado por jogar")
       exit(0)
       
+def escolhas_no_jogo():
+      print("1-lutar\n2-Explorar\n3-inventario")
+      escolha = int(input("Escolha: ")) 
+      match escolha :
+            case 1:
+                  lutar()
+            case 2:
+                  explorar()
+            case 3:
+                  print(inventario)
+
+def lutar():
+      print("sistema de lutas")
+      
+def explorar():
+      print("Sistema de exploracao..")                 
+                  
             
 mostrar_arte()
-
 Hp, level, forca, exp, inventario, estado = menu_do_jogo()
-
 monstro_sorteado = sortear_monstro(level)
 print(monstro_sorteado)
       
