@@ -11,8 +11,7 @@ print()
 hp_chefao = 100
 turnos = 0
 
-print(f"Um dragao apareceu! Hp do chefao : {hp_chefao}\n")
-
+print(f"Um dragao apareceu! Hp do chefao : {hp_chefao}\n")   
 
 #laço de repeticçao
 #o jogo continua enquant o hp do chefaofor maipor que zero
