@@ -162,7 +162,7 @@ def calcular_level(jogador_lv,jogador_exp,jogador_hp,jogafor_forca,exp_monstro):
       
 
       
-def explorar():
+ def explorar():
       print("Sistema de exploracao..")        
 def mostrar_inventario(mochila):
       print(mochila)         
